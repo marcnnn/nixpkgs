@@ -4,7 +4,7 @@
 }:
 
 let
-  version = "1.0.0-rc15";
+  version = "19.0.0";
   truffleMake = ./truffle.make;
   R = fetchurl {
     url = "http://cran.rstudio.com/src/base/R-3/R-3.5.1.tar.gz";
